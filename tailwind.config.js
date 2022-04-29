@@ -17,11 +17,15 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#ec4755',
-        secondary: '#a12c34',
-        tertiary: '#99a0a3',
+        primary: '#1EB355',
+        secondary: '#273442',
+        tertiary: '#ffffff',
         border: '#1a2e35',
         background: '#ffffff',
+      },
+      fontFamily: {
+        sans: ['Graphik', 'sans-serif'],
+        serif: ['Merriweather', 'serif'],
       },
       animation: {
         vote: 'vote 1s ease-in-out',

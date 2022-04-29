@@ -1,25 +1,12 @@
 {
   "company": {
-    "name": "React landing page 2021",
+    "name": "Claimly",
     "logo": "/assets/images/logo.svg"
   },
   "navigation": [
     {
-      "name": "Product",
-      "href": "product"
-    },
-    {
-      "name": "Features",
-      "href": "features"
-    },
-
-    {
-      "name": "Pricing",
-      "href": "pricing"
-    },
-    {
-      "name": "About",
-      "href": "about"
+      "name": "",
+      "href": "#"
     }
   ],
   "callToAction": {
@@ -145,9 +132,9 @@
       }
     ],
     "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
-      "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+      "facebook": "#",
+      "twitter": "#",
+      "linkedin": "#"
     }
   }
 }
