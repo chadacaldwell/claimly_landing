@@ -2,7 +2,6 @@ import React, { Fragment } from 'react';
 
 import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
-import Image from 'next/image';
 import Link from 'next/link';
 
 import config from '../config/index.json';
@@ -24,15 +23,11 @@ const Menu = () => {
                 <a href="#">
                   <span className="sr-only">{companyName}</span>
                   <Link href="/" passHref>
-                    <span>
-                      <Image
-                        alt="logo"
-                        className="h-16 w-auto sm:h-16"
-                        src={logo}
-                        width="200"
-                        height="200"
-                      />
-                    </span>
+                    <img
+                      alt="logo"
+                      className="h-16 w-auto sm:h-16"
+                      src={logo}
+                    />
                   </Link>
                 </a>
                 <div className="-mr-2 flex items-center md:hidden">
@@ -46,7 +41,7 @@ const Menu = () => {
               </div>
             </div>
             <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-              {navigation.map((item, index) => (
+              {navigation.map((item: any, index) => (
                 <Link key={index} href={item.href}>
                   <a
                     className={`className="font-medium text-gray-500 hover:text-gray-900`}
@@ -89,7 +84,7 @@ const Menu = () => {
                 </div>
               </div>
               <div className="px-2 pt-2 pb-3 space-y-1">
-                {navigation.map((item) => (
+                {navigation.map((item: any) => (
                   <Link key={item.name} href={item.href}>
                     <a className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
                       {item.name}

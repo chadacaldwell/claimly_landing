@@ -6,6 +6,7 @@ import Header from '../components/Header';
 import LazyShow from '../components/LazyShow';
 import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
+import config from '../config/index.json';
 
 const App = () => {
   return (
@@ -16,7 +17,7 @@ const App = () => {
             className={`relative bg-background sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32`}
           >
             <Header />
-            <MainHero />
+            <MainHero data={config.mainHero} />
           </div>
         </div>
         <MainHeroImage />

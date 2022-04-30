@@ -3,12 +3,7 @@
     "name": "Claimly",
     "logo": "/assets/images/logo.svg"
   },
-  "navigation": [
-    {
-      "name": "About",
-      "href": "/about"
-    }
-  ],
+  "navigation": [],
   "callToAction": {
     "text": "Get started",
     "href": "#"
@@ -21,19 +16,19 @@
     "actions": [
       {
         "text": "Chat With An Expert",
-        "href": "#"
+        "href": "/chat"
       },
       {
         "text": "Claim Review Tool",
-        "href": "#"
+        "href": "/survey"
       },
       {
         "text": "Leave A Message",
-        "href": "#"
+        "href": "/message"
       },
       {
         "text": "Join Claimly Vendor Network",
-        "href": "#"
+        "href": "/vendor_join"
       }
     ]
   },
