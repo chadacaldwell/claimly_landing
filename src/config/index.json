@@ -5,8 +5,8 @@
   },
   "navigation": [
     {
-      "name": "",
-      "href": "#"
+      "name": "About",
+      "href": "/about"
     }
   ],
   "callToAction": {
