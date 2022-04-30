@@ -15,10 +15,6 @@
     "img": "/assets/images/house_falling.png",
     "actions": [
       {
-        "text": "Chat With An Expert",
-        "href": "/chat"
-      },
-      {
         "text": "Claim Review Tool",
         "href": "/survey"
       },
