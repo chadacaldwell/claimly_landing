@@ -9,9 +9,7 @@ const MainHero = ({ data }: any) => {
       <div className="sm:text-center lg:text-left">
         <h1 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl">
           <span className="block xl:inline">{data.title}</span>{' '}
-          <span className={`block text-primary xl:inline`}>
-            {data.subtitle}
-          </span>
+          <span className={`block xl:inline`}>{data.subtitle}</span>
         </h1>
         <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
           {data.description}
@@ -22,8 +20,8 @@ const MainHero = ({ data }: any) => {
               <li key={index} className={`py-2`}>
                 <Link href={action.href} passHref>
                   <a>
-                    <div className="w-full flex items-center justify-left px-4 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-2 md:text-lg md:px-4">
-                      {action.text}
+                    <div className="w-full flex items-center justify-left px-4 py-3 border border-primary text-base font-medium rounded-full hover:text-primary md:py-2 md:text-lg md:px-4">
+                      <div className="justify-between">{action.text}</div>
                     </div>
                   </a>
                 </Link>

@@ -9,9 +9,9 @@
     "href": "#"
   },
   "mainHero": {
-    "title": "Professional Advice",
-    "subtitle": "on insurance property",
-    "description": "Not sure if we should put something here?",
+    "title": "Professional Advice on insurance property",
+    "subtitle": "",
+    "description": "",
     "img": "/assets/images/house_falling.png",
     "actions": [
       {
