@@ -22,7 +22,7 @@ const Menu = () => {
               <div className="flex items-center justify-between w-full md:w-auto">
                 <a href="#">
                   <span className="sr-only">{companyName}</span>
-                  <Link href="/">
+                  <Link href="/" passHref>
                     <img
                       alt="logo"
                       className="h-16 w-auto sm:h-16"
