@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 
 import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import Image from 'next/image';
 import Link from 'next/link';
 
 import config from '../config/index.json';
@@ -23,11 +24,15 @@ const Menu = () => {
                 <a href="#">
                   <span className="sr-only">{companyName}</span>
                   <Link href="/" passHref>
-                    <img
-                      alt="logo"
-                      className="h-16 w-auto sm:h-16"
-                      src={logo}
-                    />
+                    <span>
+                      <Image
+                        alt="logo"
+                        className="h-16 w-auto sm:h-16"
+                        src={logo}
+                        width="200"
+                        height="200"
+                      />
+                    </span>
                   </Link>
                 </a>
                 <div className="-mr-2 flex items-center md:hidden">
