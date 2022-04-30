@@ -1,5 +1,6 @@
 import React from 'react';
 
+import About from '../components/About';
 import Analytics from '../components/Analytics';
 import Header from '../components/Header';
 
@@ -15,6 +16,7 @@ export default function VendorJoin() {
           </div>
         </div>
       </div>
+      <About />
       <Analytics />
     </div>
   );

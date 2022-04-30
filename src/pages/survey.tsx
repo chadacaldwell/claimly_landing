@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Widget } from '@typeform/embed-react';
 
+import About from '../components/About';
 import Analytics from '../components/Analytics';
 import Header from '../components/Header';
 
@@ -16,6 +17,7 @@ const Survey = () => {
           </div>
         </div>
       </div>
+      <About />
       <Analytics />
     </div>
   );
