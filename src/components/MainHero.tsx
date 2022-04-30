@@ -21,9 +21,11 @@ const MainHero = ({ data }: any) => {
             {actions.map((action: any, index: any) => (
               <li key={index} className={`py-2`}>
                 <Link href={action.href} passHref>
-                  <div className="w-full flex items-center justify-left px-4 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-2 md:text-lg md:px-4">
-                    {action.text}
-                  </div>
+                  <a>
+                    <div className="w-full flex items-center justify-left px-4 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-2 md:text-lg md:px-4">
+                      {action.text}
+                    </div>
+                  </a>
                 </Link>
               </li>
             ))}
