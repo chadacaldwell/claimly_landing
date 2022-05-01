@@ -13,7 +13,7 @@ const Survey = () => {
         <div className="max-w-7xl mx-auto">
           <div>
             <Header />
-            <Widget id="GbTzHtrb" height={500} />
+            <Widget id="GbTzHtrb" autoResize inlineOnMobile />
           </div>
         </div>
       </div>
