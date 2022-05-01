@@ -23,11 +23,7 @@ const Menu = () => {
                 <a href="#">
                   <span className="sr-only">{companyName}</span>
                   <Link href="/" passHref>
-                    <img
-                      alt="logo"
-                      className="h-16 w-auto sm:h-16"
-                      src={logo}
-                    />
+                    <img alt="logo" className="" src={logo} />
                   </Link>
                 </a>
                 <div className="-mr-2 flex items-center md:hidden">
